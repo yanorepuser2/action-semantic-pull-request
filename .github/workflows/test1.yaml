@@ -22,5 +22,4 @@ jobs:
       - uses: ahmadnassri/action-metadata@v2.1.2
         id: metadata
         
-      - run: |
-        echo ${{ steps.metadata.outputs.repository_json }}" | jq '.full_name, .owner.login, .template_repository.name'
+      - run: echo ${{ steps.metadata.outputs.repository_json }}
