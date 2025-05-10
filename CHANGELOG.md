@@ -1,5 +1,5 @@
 # Changelog
-
+1
 ## [5.5.3](https://github.com/amannn/action-semantic-pull-request/compare/v5.5.2...v5.5.3) (2024-06-28)
 
 
