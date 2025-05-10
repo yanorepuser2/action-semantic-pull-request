@@ -6,7 +6,7 @@ Used by: [Electron](https://github.com/electron/electron) · [Vite](https://gith
 
 ## Examples
 
-**Valid pull request titles:**
+**Valid pull request title1s:**
 - fix: Correct typo
 - feat: Add support for Node.js 18
 - refactor!: Drop support for Node.js 12
