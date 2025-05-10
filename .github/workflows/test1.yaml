@@ -1,13 +1,18 @@
-name: pull_request_target1
-
 on: pull_request_target
+
+name: pull_request_target
 
 permissions:
   pull-requests: write
   contents: write
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+
 jobs:
   metadata:
+    runs-on: ubuntu-latest
+
     outputs:
       repository_is_template: ${{ steps.metadata.outputs.repository_is_template }}
 
